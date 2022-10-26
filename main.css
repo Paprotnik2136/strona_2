@@ -1,0 +1,67 @@
+:root
+{
+    --primary: #9b59b6;
+    --primary-dark: #8e44ad;
+    --secondary: #ecf0f1;
+    --secondary-dark: #bdc3c7;
+    --font: #313131;
+}
+body
+{
+    margin: 0;
+    padding: 20px;
+    color: var(--font);
+    background-color: var(--secondary-dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    display: flex;
+    
+}
+.todo
+{
+    margin: 0 auto;
+    width: 600px;
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list
+{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+input
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+.button
+{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--primary);
+    color: #eee;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover
+{
+    background-color: var(--primary-dark);
+}
+.task
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hide
+{
+    display: none;
+}

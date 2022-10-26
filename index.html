@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Lab2</title>
+</head>
+<body>
+    <div class="container">
+        <template id="task">
+            <div class="task">
+                <input type="text" class="task-text" disabled>
+                <div class="task-date"></div>
+                <div class="button" id="delete">delete</div>
+            </div> 
+        </template>
+       <div class="todo" id="todo">
+            <label for="search">Search</label>
+            <input type="text" id="search">
+            <div class="button" id="search-btn">search</div>
+            <label for="add">Add new task</label>
+            <input type="text" id="add-text">
+            <input type="date" id="add-date">
+            <div class="button" id="add-btn">add</div>
+            <div class="list" id="list"></div>
+       </div>
+    </div>
+</body>
+</html>
